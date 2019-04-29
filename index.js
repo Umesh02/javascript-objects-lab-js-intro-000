@@ -18,6 +18,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 // }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete object.key
-  return object
+  delete object[key]
+  
 }
